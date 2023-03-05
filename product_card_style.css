@@ -1,0 +1,70 @@
+body {
+    padding: 50px;
+}
+
+.container {
+    width: 350px;
+    height: 500px;
+    background-color: rgb(255, 249, 230);
+    border-radius: 80px;
+}
+
+.img-container {
+    width: 100%;
+    height: 65%;
+    background-image: url("./honey.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+}
+
+.bottom-container {
+    width: 100%;
+    height: 35%;
+    font-size: 18pt;
+}
+
+.text-container {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.left-container {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.left-container p {
+    margin: 3px 0;
+}
+
+.right-container {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.button-container {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container button {
+    font-size: 18pt;
+    padding: 10px 0;
+    width: 60%;
+    border-radius: 30px;
+    border: none;
+    background-color: #ffe180;
+}
